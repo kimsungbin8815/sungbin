@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>서울숲</title>
+
+    <style>
+    
+* { margin: 0; padding: 0;
+        font-family: 'Mini_handwriting';}
+        /* 초기화 */
+            * { 
+                margin: 0; padding: 0;
+                font-family: '고딕';
+            }
+            a { text-decoration: none; }
+            li { list-style: none; }
+        /* 기본 클래스 */
+            .pull-left { float: left; }
+            .pull-right { float:right; }
+    
+        /* 페이지 */
+            body {
+                width: 960px; margin: 0 auto;
+                background: #04a243fe;
+            }
+    
+            #page-wrapper {
+                background: #8bbbffc9; 
+                margin: 40px 0; padding: 10px 20px; 
+                border-radius: 5px;
+                box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3);
+            }
+        /* 헤더 */
+            #main-header { padding: 40px 50px; }
+            .master-title { 
+                padding: 10px 10px;
+            font-size: 30px; 
+            color: #ffffff;
+            border: solid 1.7px rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: #1e00ff42;
+            width: 18%;}
+            .master-description {
+                font-size: 15px; font-weight: 500;
+                color: #ffffff;
+            }
+    
+        /* 네비게이션 */
+    
+            #main-navigation {
+               
+                margin-bottom: 20px;
+                height: 40px;
+            }
+            
+            .fifty-percent {
+          
+            background-color: rgb(171, 238, 255);
+            display: block;
+            height: 30px; line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;}
+        
+        .fifty-percent-one {
+            background-color: #ff8f9a;
+            display: block;
+            height: 30px; line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;}
+            
+            .outer-menu-item {
+                float: left;
+                position: relative;
+            }
+            .outer-menu-item:hover {
+                background: black;
+                color: rgb(255, 255, 255)
+            }
+    
+            .menu-title {
+            
+            background-color: rgb(255, 152, 248);
+            display: block;
+            height: 30px; line-height: 30px;
+            padding: 5px 20px;
+            }
+    
+       
+        /* 중앙  */
+    
+            /* body 태그의 너비: 960픽셀 */
+            /* #page-wrapper 태그의 padding 속성으로 내용물 너비는 920픽셀 */
+            #content { overflow: hidden; }
+            #main-section {
+                float: left;
+                width: 710px;
+            }
+            #main-aside {
+                float: right;
+                width: 200px;
+            }
+    
+        /* 좌측  */
+    
+          
+            .article-header { padding: 20px 0; }
+            .article-title { 
+                font-size: 25px;
+                font-weight: 500; 
+                padding-bottom: 10px;
+            }
+            .article-date { font-size: 13px; }
+            .article-body {
+                font-size: 14px;
+            }
+    
+        /* 우측  */
+    
+            .aside-list { padding: 10px 0 30px 0; }
+            .aside-list > h3 {
+                font-size: 15px;
+                font-weight: 600;
+            }
+            .aside-list li a {
+                margin-left: 8px;
+                font-size: 18px;
+                color: #7700ff;
+            }
+
+            h3{
+            color: white;
+            }
+
+            .fp{
+                position: fixed;
+                right: 0%;
+                bottom: 70%;
+                background-color: rgb(0, 255, 17);
+                width: 70px;
+                height: 60px;
+            }
+            .fp1{
+                position: fixed;
+                right: 0%;
+                bottom: 60%;
+                background-color: rgb(255, 0, 0);
+                width: 80px;
+                height: 60px;
+            }
+            .fp2{
+                position: fixed;
+                right: 0%;
+                bottom: 50%;
+                background-color: rgb(255, 0, 187);
+                width: 90px;
+                height: 60px;
+           
+          
+            }
+
+        </style>
+   
+</head>
+<body>
+    <!-- 주석: 내가 알아두어야할 것들.. 기억해야할 것들.. 메모.. -->
+    <div id="page-wrapper">
+        <header id="main-header">
+            <hgroup>
+                <h1 class="master-title">서울숲</h1>
+                <h2 class="master-description"><br>2022221008김성빈</h2>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title"><a href="https://seoulforest.or.kr/">서울숲 홈페이지</a></span>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="fifty-percent"><a href="https://seoulforest.or.kr/info/park-info">서울숲 안내</a></span>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="fifty-percent-one"><a href="https://seoulforest.or.kr/info/map">서울숲 오시는 길</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+     
+                </div>
+            </div>
+        </nav>
+    
+        <div id="content">
+            <section id="main-section">
+                
+                    <div class="article-header">
+                        <h1 class="article-title"><h3 class="box solid">오늘은 서울숲에 갔습니다.<br>
+                        <img src="김성빈res/서울숲 단체사진.jpg" width="300px" height="300px" alt="서울숲사진"><br>
+                        <mark>조원들과 단체사진</mark><br>
+                        조원들과 오늘 이후로 더 많이 친해진 것 같아요. 교수님 최고<br>
+                        <img src="김성빈res/서울숲 로고사진.jpg" width="300px" height="300px" alt="서울숲"><br>
+                        <mark>단독샷</mark><br>
+                        조원들이 사진도 많이 찍어줬어요!</h3></h1>
+
+                        
+                        
+                    </div>
+                   
+              
+               
+
+            </section>
+            
+        <ul>
+            <li><a href="https://seoulforest.or.kr/sc/contact"><p class="fp">서울숲<br>연락처</p></a></li>
+            <li><a href="https://www.instagram.com/accounts/login/?next=/seoulforestpark/"><p class="fp1">서울숲<br>인스타그램</p></a></li>
+            <li><a href="https://www.facebook.com/seoulforestpark/"><p class="fp2">서울숲<br>페이스북</p></a></li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>
